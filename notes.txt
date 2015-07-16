@@ -1,0 +1,24 @@
+=== Mereni ===
+
+- tryska 0.4
+- sirka vrstvy na auto
+- slic3r 1.2.9 stable
+
+stena objektu v mm -> stena objektu ve vytisku
+0.1     -> nevytiskne vubec (ignoruje to)
+0.2-0.6 -> 0.45-0.65mm
+0.7     -> cca 1mm (tenka pravidelna stena)
+1.5     -> cca 2mm (klasicka stena)
+
+Jinak 4*0.25mm vyska vrstvy je tak 1.1mm a je uz hodne jemna (precizni). Nerovnosti jsou zde spise kvuli retrakcim a prejezdum.
+
+
+=== Vysledek ====
+
+tenké stěny 0.7
+silné stěny 1.5
+
+vše < 0.7 bude mít cca 1mm (nemá smysl)
+vše < 0.1 se ignoruje
+
+zkreslení je až 0.5mm (sířka vrstvy, pro auto 0.4 a 0.56)
