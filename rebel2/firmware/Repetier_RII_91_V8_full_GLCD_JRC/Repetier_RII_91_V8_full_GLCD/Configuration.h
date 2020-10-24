@@ -307,7 +307,7 @@ WARNING: Servos can draw a considerable amount of current. Make sure your system
 #define ARC_SUPPORT 1
 #define FEATURE_MEMORY_POSITION 1
 #define FEATURE_CHECKSUM_FORCED 0
-#define FEATURE_FAN_CONTROL 0
+#define FEATURE_FAN_CONTROL 1
 #define FEATURE_CONTROLLER 11
 #define UI_LANGUAGE 8
 #define UI_PRINTER_NAME "REBEL II"
